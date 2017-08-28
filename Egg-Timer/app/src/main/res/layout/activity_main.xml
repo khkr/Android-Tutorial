@@ -30,7 +30,7 @@
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
         android:textSize="60sp"
-        android:text="00:30" />
+        android:text="0:30" />
 
     <Button
         android:id="@+id/controller_button"
@@ -39,7 +39,8 @@
         android:layout_below="@+id/timer_textView"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="50dp"
-        android:text="GO" />
+        android:text="GO"
+        android:onClick="controlTimer"/>
 
 
 </RelativeLayout>
